@@ -27,6 +27,13 @@ public class FetureForBlaBla1
         super.finalize();
     }
 
+    @Override
+    public String toString()
+    {
+        // TODO Auto-generated method stub
+        return super.toString();
+    }
+
 
 
 }
