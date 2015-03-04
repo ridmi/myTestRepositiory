@@ -11,11 +11,15 @@ package com.see.git.test;
 public class FetureForBlaBla1
 {
 
-    public static void main(String[] args)
+    @Override
+    protected Object clone()
+        throws CloneNotSupportedException
     {
         // TODO Auto-generated method stub
-
+        return super.clone();
     }
+
+
 
 }
 
